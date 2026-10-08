@@ -2,10 +2,7 @@
 
 
 def encode(data: bytes) -> str:
-    out = ""
-    for b in data:
-        out = out + "%02x" % b
-    return out
+    return data.hex()
 
 
 def decode(text: str) -> bytes:
