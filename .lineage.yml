@@ -1,0 +1,5 @@
+# Lineage protocol test repository: this file opts the repository in to Lineage pull requests (SPEC 16).
+lineage:
+  max_prs_per_week: 2
+  kinds: [perf]
+  contact: https://github.com/ds56vmr2
